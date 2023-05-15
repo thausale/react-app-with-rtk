@@ -64,7 +64,9 @@ const CocktailSearchForm = (props) => {
           checked={isAlcoholFree}
           onChange={handleCheckboxChange}
         />
-        <Button type="primary">Submit</Button>
+        <button type="submit" className="primary">
+          Submit
+        </button>
       </form>
     </div>
   );

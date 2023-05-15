@@ -12,7 +12,7 @@ const CocktailApp = () => {
   return (
     <div>
       <h1>
-        CocktailApp{" "}
+        CocktailApp
         <Link to="/">
           <Button>To friends</Button>
         </Link>
